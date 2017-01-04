@@ -1,0 +1,7 @@
+# build
+
+builds/
+
+# external libraries
+
+node_modules/
