@@ -5,17 +5,27 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack/webpack.dev.js --display-modules",
+    "serve": "webpack --config webpack/webpack.dev.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "garfunkel61 - Andrzej Dłubak",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.1"
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.18.6",
+    "browser-sync-webpack-plugin": "https://registry.npmjs.org/browser-sync-webpack-plugin/-/browser-sync-webpack-plugin-1.1.3.tgz",
+    "css-loader": "^0.26.1",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.3.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "yargs": "^6.6.0"
   }
