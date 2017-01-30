@@ -5,3 +5,7 @@ builds/
 # external libraries
 
 node_modules/
+
+# npms
+
+npm-debug.log
