@@ -935,6 +935,12 @@
       "resolved": "https://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz",
       "dev": true
     },
+    "constitute": {
+      "version": "1.6.2",
+      "from": "constitute@>=1.6.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/constitute/-/constitute-1.6.2.tgz",
+      "dev": true
+    },
     "convert-source-map": {
       "version": "1.3.0",
       "from": "convert-source-map@>=1.1.0 <2.0.0",
@@ -1454,6 +1460,12 @@
       "version": "0.1.1",
       "from": "find-cache-dir@>=0.1.1 <0.2.0",
       "resolved": "https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-0.1.1.tgz",
+      "dev": true
+    },
+    "find-index": {
+      "version": "0.1.1",
+      "from": "find-index@>=0.1.1 <0.2.0",
+      "resolved": "https://registry.npmjs.org/find-index/-/find-index-0.1.1.tgz",
       "dev": true
     },
     "find-up": {
@@ -2408,6 +2420,12 @@
       "version": "2.0.0",
       "from": "glob-parent@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-2.0.0.tgz",
+      "dev": true
+    },
+    "glob2base": {
+      "version": "0.0.12",
+      "from": "glob2base@0.0.12",
+      "resolved": "https://registry.npmjs.org/glob2base/-/glob2base-0.0.12.tgz",
       "dev": true
     },
     "globals": {
@@ -3846,6 +3864,12 @@
       "resolved": "https://registry.npmjs.org/rechoir/-/rechoir-0.6.2.tgz",
       "dev": true
     },
+    "recursive-iterator": {
+      "version": "2.0.3",
+      "from": "recursive-iterator@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/recursive-iterator/-/recursive-iterator-2.0.3.tgz",
+      "dev": true
+    },
     "redent": {
       "version": "1.0.0",
       "from": "redent@>=1.0.0 <2.0.0",
@@ -4687,6 +4711,12 @@
       "version": "1.14.0",
       "from": "webpack@latest",
       "resolved": "https://registry.npmjs.org/webpack/-/webpack-1.14.0.tgz",
+      "dev": true
+    },
+    "webpack-config": {
+      "version": "6.2.1",
+      "from": "webpack-config@latest",
+      "resolved": "https://registry.npmjs.org/webpack-config/-/webpack-config-6.2.1.tgz",
       "dev": true
     },
     "webpack-core": {

@@ -1,10 +1,10 @@
 var path = require('path'),
     argv = require('yargs').argv;
 
-if (argv.config && !!argv.config.match('dev')) {
-    module.exports.mode = "dev";
+if (argv.config && !!argv.config.match('serve')) {
+    module.exports.mode = "serve";
 } else {
-    module.exports.mode = "build";
+    module.exports.mode = "prod";
 }
 
 console.log('---------------------')

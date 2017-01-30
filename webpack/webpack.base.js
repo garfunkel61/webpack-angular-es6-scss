@@ -1,8 +1,7 @@
 'use strict';
 
 var common            = require('./common'),
-    HtmlWebpackPlugin = require('html-webpack-plugin'),
-    BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+    HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -12,7 +11,6 @@ module.exports = {
     path: 'builds',
     filename: '[name].bundle.js'
   },
-  devtool: "source-map", // creates source-map for bundle, should be used only on dev
   module: {
     loaders: [
       {
@@ -36,11 +34,6 @@ module.exports = {
     ]
   },
   plugins: [
-      new BrowserSyncPlugin({
-          host: 'localhost',
-          port: 3003,
-          server: { baseDir: ['builds'] }
-      }),
       new HtmlWebpackPlugin({ // Inject builded out bundle to given file
           title: 'My fist Angular Webpack App',
           template: 'src/index.html',
