@@ -15,8 +15,8 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/, // below annotation for angular dependencies injections
-        loaders: ['ng-annotate', 'babel-loader?presets[]=es2015'],
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        loaders: ['ng-annotate', 'babel-loader?presets[]=es2015']
       },
       {
         test: /\.scss$/,
@@ -27,7 +27,11 @@ module.exports = {
         test: /\.html$/,
         exclude: /node_modules/,
         loader: "html-loader"
-      }
+      },
+      {
+        test: /\.(ttf|eot|svg|png|gif|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: 'file-loader'
+      },
     ]
   },
   plugins: [
