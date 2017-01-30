@@ -14,12 +14,9 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-        query: {
-          presets: ['es2015']
-        }
+        test: /\.js$/, // below annotation for angular dependencies injections
+        loaders: ['ng-annotate', 'babel-loader?presets[]=es2015'],
+        exclude: /node_modules/
       },
       {
         test: /\.scss$/,

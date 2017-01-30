@@ -50,6 +50,12 @@
       "resolved": "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz",
       "dev": true
     },
+    "alter": {
+      "version": "0.2.0",
+      "from": "alter@>=0.2.0 <0.3.0",
+      "resolved": "https://registry.npmjs.org/alter/-/alter-0.2.0.tgz",
+      "dev": true
+    },
     "amdefine": {
       "version": "1.0.1",
       "from": "amdefine@>=0.0.4",
@@ -3208,6 +3214,32 @@
       "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz",
       "dev": true
     },
+    "ng-annotate": {
+      "version": "1.2.1",
+      "from": "ng-annotate@1.2.1",
+      "resolved": "https://registry.npmjs.org/ng-annotate/-/ng-annotate-1.2.1.tgz",
+      "dev": true,
+      "dependencies": {
+        "acorn": {
+          "version": "2.6.4",
+          "from": "acorn@>=2.6.4 <2.7.0",
+          "resolved": "https://registry.npmjs.org/acorn/-/acorn-2.6.4.tgz",
+          "dev": true
+        },
+        "convert-source-map": {
+          "version": "1.1.3",
+          "from": "convert-source-map@>=1.1.2 <1.2.0",
+          "resolved": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz",
+          "dev": true
+        }
+      }
+    },
+    "ng-annotate-loader": {
+      "version": "0.2.0",
+      "from": "ng-annotate-loader@latest",
+      "resolved": "https://registry.npmjs.org/ng-annotate-loader/-/ng-annotate-loader-0.2.0.tgz",
+      "dev": true
+    },
     "no-case": {
       "version": "2.3.1",
       "from": "no-case@>=2.2.0 <3.0.0",
@@ -3350,6 +3382,18 @@
       "version": "0.0.6",
       "from": "options@>=0.0.5",
       "resolved": "https://registry.npmjs.org/options/-/options-0.0.6.tgz",
+      "dev": true
+    },
+    "ordered-ast-traverse": {
+      "version": "1.1.1",
+      "from": "ordered-ast-traverse@>=1.1.1 <1.2.0",
+      "resolved": "https://registry.npmjs.org/ordered-ast-traverse/-/ordered-ast-traverse-1.1.1.tgz",
+      "dev": true
+    },
+    "ordered-esprima-props": {
+      "version": "1.1.0",
+      "from": "ordered-esprima-props@>=1.1.0 <1.2.0",
+      "resolved": "https://registry.npmjs.org/ordered-esprima-props/-/ordered-esprima-props-1.1.0.tgz",
       "dev": true
     },
     "os-browserify": {
@@ -4196,6 +4240,18 @@
       "resolved": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz",
       "dev": true
     },
+    "simple-fmt": {
+      "version": "0.1.0",
+      "from": "simple-fmt@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/simple-fmt/-/simple-fmt-0.1.0.tgz",
+      "dev": true
+    },
+    "simple-is": {
+      "version": "0.2.0",
+      "from": "simple-is@>=0.2.0 <0.3.0",
+      "resolved": "https://registry.npmjs.org/simple-is/-/simple-is-0.2.0.tgz",
+      "dev": true
+    },
     "slash": {
       "version": "1.0.0",
       "from": "slash@>=1.0.0 <2.0.0",
@@ -4344,6 +4400,12 @@
         }
       }
     },
+    "stable": {
+      "version": "0.1.5",
+      "from": "stable@>=0.1.5 <0.2.0",
+      "resolved": "https://registry.npmjs.org/stable/-/stable-0.1.5.tgz",
+      "dev": true
+    },
     "statuses": {
       "version": "1.3.1",
       "from": "statuses@>=1.3.0 <1.4.0",
@@ -4390,6 +4452,18 @@
       "version": "1.0.2",
       "from": "string-width@>=1.0.2 <2.0.0",
       "resolved": "https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz",
+      "dev": true
+    },
+    "stringmap": {
+      "version": "0.2.2",
+      "from": "stringmap@>=0.2.2 <0.3.0",
+      "resolved": "https://registry.npmjs.org/stringmap/-/stringmap-0.2.2.tgz",
+      "dev": true
+    },
+    "stringset": {
+      "version": "0.2.1",
+      "from": "stringset@>=0.2.1 <0.3.0",
+      "resolved": "https://registry.npmjs.org/stringset/-/stringset-0.2.1.tgz",
       "dev": true
     },
     "stringstream": {
@@ -4498,6 +4572,12 @@
       "version": "1.0.0",
       "from": "trim-newlines@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz",
+      "dev": true
+    },
+    "tryor": {
+      "version": "0.1.2",
+      "from": "tryor@>=0.1.2 <0.2.0",
+      "resolved": "https://registry.npmjs.org/tryor/-/tryor-0.1.2.tgz",
       "dev": true
     },
     "tty-browserify": {
