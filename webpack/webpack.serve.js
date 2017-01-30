@@ -1,7 +1,6 @@
 'use strict';
 
-var webpack = require("webpack"),
-    common            = require('./common'),
+var common            = require('./common'),
     WebpackConfig     = require('webpack-config'),
     BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
