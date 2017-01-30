@@ -32,6 +32,5 @@ TODO:
 ------
 
 - add unit tests compiler and runner
-- add bundle minification
-- add production build
-- add static files-loader 
+- make use of static file loader
+- add url loader?
