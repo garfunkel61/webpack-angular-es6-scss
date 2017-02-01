@@ -32,5 +32,5 @@ TODO:
 ------
 
 - add unit tests compiler and runner
-- make use of static file loader
 - add url loader?
+- css into seperet file

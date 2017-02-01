@@ -6,7 +6,7 @@ import uiRouter from 'angular-ui-router';
 import './app.scss';
 import appHtml from './app.html';
 
-import logo from './img/logo.png'
+import logo from './img/logo.png';
 
 angular
     .module('app', ['ui.router'])
@@ -17,6 +17,10 @@ function routeConfig($stateProvider, $urlRouterProvider) {
 
     $stateProvider.state('home', {
       url: '/home',
-      template: appHtml
+      template: appHtml,
+      controllerAs: 'homeCtrl',
+      controller: function () {
+        this.logo = logo;
+      }
     });
 }

@@ -27,11 +27,7 @@ module.exports = {
         test: /\.html$/,
         exclude: /node_modules/,
         loader: "html-loader"
-      },
-      {
-        test: /\.(ttf|eot|svg|png|gif|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'file-loader'
-      },
+      }
     ]
   },
   plugins: [
