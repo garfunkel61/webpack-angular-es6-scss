@@ -1,12 +1,15 @@
 'use strict';
 
+// external libraries
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
+// static assets
+import logo from './img/logo.png';
+
+// application files
 import './app.scss';
 import appHtml from './app.html';
-
-import logo from './img/logo.png';
 
 angular
     .module('app', ['ui.router'])

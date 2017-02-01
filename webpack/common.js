@@ -12,3 +12,12 @@ console.log('MODE: ' + module.exports.mode);
 console.log('---------------------')
 
 module.exports.absPath = (x) => path.join(__dirname, x);
+module.exports.isExternal = (module) => {
+  var userRequest = module.userRequest;
+
+  if (typeof userRequest !== 'string') {
+    return false;
+  }
+
+  return userRequest.indexOf('node_modules') >= 0;
+};

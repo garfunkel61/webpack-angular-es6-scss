@@ -1,6 +1,7 @@
 'use strict';
 
-var common            = require('./common'),
+var webpack           = require('webpack'),
+    common            = require('./common'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -31,10 +32,16 @@ module.exports = {
     ]
   },
   plugins: [
-      new HtmlWebpackPlugin({ // Inject builded out bundle to given file
-          title: 'My fist Angular Webpack App',
-          template: 'src/index.html',
-          hash: true
-      })
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendors',
+      minChunks: function(module) {
+        return common.isExternal(module);
+      }
+    }),
+    new HtmlWebpackPlugin({ // Inject builded out bundle to given file
+        title: 'My fist Angular Webpack App',
+        template: 'src/index.html',
+        hash: true
+    })
   ]
 }
